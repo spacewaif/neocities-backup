@@ -1,0 +1,307 @@
+<html>
+        <title>&#11089;&#77955;  internesting</title>
+        <link rel="stylesheet" href="style_home.css">
+        <link rel="icon" href="https://internest.no/tumblr_bb1c8f6dc5fc28c084b24c8c5e7c41e9_f08bdaca_500.gif">
+    
+<style> 
+* {cursor: url(https://cur.cursors-4u.net/others/oth-9/oth803.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2012/02/04/purple-bow-tie-4.html" target="_blank" title="Purple Bow Tie"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Purple Bow Tie" style="position:absolute; top: 0px; right: 0px;" /></a>
+
+</style>
+
+
+<head>
+<marquee scrollamount="24"> <font size="4" face="dreemur"> <a href=""> &#32;&#8231;&#8330;&#32;&ast;&colon;&#12539;&#65439;&#24417;&#32; </a>  internal validation ONLY thx - - - ___ my hands a map of emotional states ___ they sat in a circle three, spit held in their mouths, eyes piercing past aversion ___ the world just keeps coming in holographic waves & all-ruining swords, forever ___ personality, what does this mean? i am a being, outside of time and norm, the agora scoffs ___ as the banshee screamed (take her wisdom) : never stop screaming, into the street, never hide your truths, don't let them muzzle u ___ moja ostatnia nadzieja ___ the world is lonely, where there is no culture, where there is people, there is culture; cultivate yours today ! ___ dandere mode ON (i'm greyrocking like everyone i don't have time for haha) ___ <a href="https://status.cafe/users/polywhisper"> &#32;&#8231;&#8330;&#32;&ast;&colon;&#12539;&#65439;&#24417;&#32; </a> </font> </marquee> 
+<marquee scrollamount="14"> <font size="8"> &#9825;&#32;://internest / &#42160;&#4304;&#32;&#8333;&#5154;&period;&#32;&#811;&period;&#5154;&#8334;&#32;&#3794;&#42161;&#32;&#8231;&#8330;&ring;&#32;/<a href="https://internest.no/shelll"> polywhispering / </A> &#32;&#8231;&#8330;&ring;&#32;<a href="https://internest.no/oal"> yandere mode ON / </A> &ring;&#666;&#9825;&#606;&ring;&#32; <a href="https://internest.no/reality/00380000l" title="homesick 4 the stars"> you are always home / </A> &#32;&#8231;&#8330;&#32;&ast;&colon;&#12539;&#65439;&#24417;&#32;</a></font> </marquee> 
+<img src="https://internest.neocities.org/x391pb.gif" height="100"  title="this site is under construction &#10023;&#726;&period;&#32;">
+<br> 
+<a href="https://status.cafe/users/polywhisper"><img src="https://internest.no/444Capture.PNG" title="thought feed"></a><br>
+
+<img src="https://internest.no/mailput.gif"><br>
+    <img src="https://internest.no/Gole5S5.png"><br><img src="https://internest.no/rain.gif"><br>
+    
+    <img src="https://internest.no/da7e4fp-7b6162e6-b1b1-4da5-9806-09ad2483ab45.png"><br>
+    <img src="https://internest.no/gingham.png"><br> 
+<a href="https://internest.no/dagbok"><img src="https://internest.no/444Capture.PNG" title="dagbok"></a>
+<a href="https://internest.no/dagbok"><img src="https://internest.no/444Capture.PNG" title="STOP STALKING ME WTF"></a>
+
+
+<script type="text/javascript">
+// <![CDATA[
+var colour="#FFFFFF";
+var sparkles=120;
+
+/****************************
+*  Tinkerbell Magic Sparkle *
+* (c) 2005 mf2fm web-design *
+*  http://www.mf2fm.com/rv  *
+* DON'T EDIT BELOW THIS BOX *
+****************************/
+var x=ox=400;
+var y=oy=300;
+var swide=800;
+var shigh=600;
+var sleft=sdown=0;
+var tiny=new Array();
+var star=new Array();
+var starv=new Array();
+var starx=new Array();
+var stary=new Array();
+var tinyx=new Array();
+var tinyy=new Array();
+var tinyv=new Array();
+
+window.onload=function() { if (document.getElementById) {
+  var i, rats, rlef, rdow;
+  for (var i=0; i<sparkles; i++) {
+    var rats=createDiv(3, 3);
+    rats.style.visibility="hidden";
+    document.body.appendChild(tiny[i]=rats);
+    starv[i]=0;
+    tinyv[i]=0;
+    var rats=createDiv(5, 5);
+    rats.style.backgroundColor="transparent";
+    rats.style.visibility="hidden";
+    var rlef=createDiv(1, 5);
+    var rdow=createDiv(5, 1);
+    rats.appendChild(rlef);
+    rats.appendChild(rdow);
+    rlef.style.top="2px";
+    rlef.style.left="0px";
+    rdow.style.top="0px";
+    rdow.style.left="2px";
+    document.body.appendChild(star[i]=rats);
+  }
+  set_width();
+  sparkle();
+}}
+
+function sparkle() {
+  var c;
+  if (x!=ox || y!=oy) {
+    ox=x;
+    oy=y;
+    for (c=0; c<sparkles; c++) if (!starv[c]) {
+      star[c].style.left=(starx[c]=x)+"px";
+      star[c].style.top=(stary[c]=y)+"px";
+      star[c].style.clip="rect(0px, 5px, 5px, 0px)";
+      star[c].style.visibility="visible";
+      starv[c]=50;
+      break;
+    }
+  }
+  for (c=0; c<sparkles; c++) {
+    if (starv[c]) update_star(c);
+    if (tinyv[c]) update_tiny(c);
+  }
+  setTimeout("sparkle()", 40);
+}
+
+function update_star(i) {
+  if (--starv[i]==25) star[i].style.clip="rect(1px, 4px, 4px, 1px)";
+  if (starv[i]) {
+    stary[i]+=1+Math.random()*3;
+    if (stary[i]<shigh+sdown) {
+      star[i].style.top=stary[i]+"px";
+      starx[i]+=(i%5-2)/5;
+      star[i].style.left=starx[i]+"px";
+    }
+    else {
+      star[i].style.visibility="hidden";
+      starv[i]=0;
+      return;
+    }
+  }
+  else {
+    tinyv[i]=50;
+    tiny[i].style.top=(tinyy[i]=stary[i])+"px";
+    tiny[i].style.left=(tinyx[i]=starx[i])+"px";
+    tiny[i].style.width="2px";
+    tiny[i].style.height="2px";
+    star[i].style.visibility="hidden";
+    tiny[i].style.visibility="visible"
+  }
+}
+
+function update_tiny(i) {
+  if (--tinyv[i]==25) {
+    tiny[i].style.width="1px";
+    tiny[i].style.height="1px";
+  }
+  if (tinyv[i]) {
+    tinyy[i]+=1+Math.random()*3;
+    if (tinyy[i]<shigh+sdown) {
+      tiny[i].style.top=tinyy[i]+"px";
+      tinyx[i]+=(i%5-2)/5;
+      tiny[i].style.left=tinyx[i]+"px";
+    }
+    else {
+      tiny[i].style.visibility="hidden";
+      tinyv[i]=0;
+      return;
+    }
+  }
+  else tiny[i].style.visibility="hidden";
+}
+
+document.onmousemove=mouse;
+function mouse(e) {
+  set_scroll();
+  y=(e)?e.pageY:event.y+sdown;
+  x=(e)?e.pageX:event.x+sleft;
+}
+
+function set_scroll() {
+  if (typeof(self.pageYOffset)=="number") {
+    sdown=self.pageYOffset;
+    sleft=self.pageXOffset;
+  }
+  else if (document.body.scrollTop || document.body.scrollLeft) {
+    sdown=document.body.scrollTop;
+    sleft=document.body.scrollLeft;
+  }
+  else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
+    sleft=document.documentElement.scrollLeft;
+	sdown=document.documentElement.scrollTop;
+  }
+  else {
+    sdown=0;
+    sleft=0;
+  }
+}
+
+window.onresize=set_width;
+function set_width() {
+  if (typeof(self.innerWidth)=="number") {
+    swide=self.innerWidth;
+    shigh=self.innerHeight;
+  }
+  else if (document.documentElement && document.documentElement.clientWidth) {
+    swide=document.documentElement.clientWidth;
+    shigh=document.documentElement.clientHeight;
+  }
+  else if (document.body.clientWidth) {
+    swide=document.body.clientWidth;
+    shigh=document.body.clientHeight;
+  }
+}
+
+function createDiv(height, width) {
+  var div=document.createElement("div");
+  div.style.position="absolute";
+  div.style.height=height+"px";
+  div.style.width=width+"px";
+  div.style.overflow="hidden";
+  div.style.backgroundColor=colour;
+  return (div);
+}
+// ]]>
+</script>
+    </head>
+    
+    
+    <body>   
+        <center>    <img src="https://internest.no/download%20(7).gif"> <br>
+        
+         <img src="https://internest.no/candy.png" width="800"> <br>
+         
+        <img src="https://internest.no/tumblr_pbrjnhdr741vs5f7yo1_250.png">
+        
+        <br>
+        </center>
+        
+        
+  <center>
+
+
+</center>  
+
+<footer>
+<center>
+<br>
+<hr class="gradient">
+        <img src="https://internest.no/Rose_Quartz.png" height="31" title="&#9825;&#32;&middot;&#32;&hearts;&#65038;&#32;">    <a href="https://neocities.org/site/internest"><img src="https://internest.no/neocities_button.gif" height="31">   <img src="https://internest.nekoweb.org/internest_button.gif"></a> <img src="https://internest.no/dream2.gif" height="31">  <img src="https://internest.nekoweb.org/chibibut2.gif">  <img src="https://internest.nekoweb.org/computer.gif"> <img src="https://internest.nekoweb.org/got_html.gif"> <img src="https://internest.nekoweb.org/navi.PNG" height="31"> <img src="https://internest.no/letter.png" height="31" title="i love him   &#9825;&#32;&middot;&#32;&hearts;&#65038;&#32;">  <img src="https://internest.no/Rose_Quartz.png" height="31" title="&#9825;&#32;&middot;&#32;&hearts;&#65038;&#32;">  <br> 
+        
+        <i><font color="FF6FFF" face="arial">&copy; internest 2025</font><font color="FF6FFF" face="arial">&#32;&#8231;&#8330;&ring;&#32;</i></font> 
+        </center> 
+        
+</footer>
+
+<div class="crt"></div>
+
+</body>
+  
+<script>
+      const container = document.body;
+      const sparkleImage = "https://i.imgur.com/F8aTF8B.png";
+      const sparkleSizeRange = [5, 5];
+
+      function lerp(a, b, f) {
+        return (b - a) * f + a;
+      }
+
+      function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min);
+      }
+
+      function getSparkleSize() {
+        return getRandomInt(sparkleSizeRange[0], sparkleSizeRange[1]);
+      } 
+
+      function sparkleEffect(x, y) {
+        const s = getSparkleSize(); 
+        x -= s / 2; 
+        y -= s / 2;
+        x = Math.floor(x) + getRandomInt(-15, 15);
+        y = Math.floor(y) + getRandomInt(-15, 15);
+        const fx = x + getRandomInt(-50, 50);
+        const fy = y + getRandomInt(-50, 50);
+        const sparkle = document.createElement("img");
+        sparkle.src = sparkleImage;
+        sparkle.style.pointerEvents = "none";
+        sparkle.style.position = "fixed";
+        sparkle.style.width = `${s}px`;
+        sparkle.style.left = `${x}px`;
+        sparkle.style.top = `${y}px`;
+        sparkle.style.webkitTouchCallout = "none";
+        sparkle.style.webkitUserSelect = "none";
+        sparkle.style.khtmlUserSelect = "none";
+        sparkle.style.mozUserSelect = "none";
+        sparkle.style.msUserSelect = "none";
+        sparkle.style.userSelect = "none";
+        sparkle.style.zIndex = 99999;
+        container.appendChild(sparkle);
+        let f = 0;
+        const interval = setInterval(function() {
+          const _x = Math.floor(lerp(x, fx, f));
+          const _y = Math.floor(lerp(y, fy, f));
+          sparkle.style.left = `${_x}px`;
+          sparkle.style.top = `${_y}px`;
+          sparkle.style.opacity = 1 - f;
+          f += 0.01;
+          if (f > 1) {
+            clearInterval(interval);
+            container.removeChild(sparkle);
+          }
+        }, 6);
+      }
+
+      function createSparkles(x, y) {
+        for (let i = 0; i < 20; i++) {
+          sparkleEffect(x, y);
+        }
+      }
+
+      container.addEventListener("click", function(event) {
+        const x = event.clientX;
+        const y = event.clientY;
+        createSparkles(x, y);
+      });
+
+    </script> 
+<div class="crt"></div>
+    </body>
+</html> 
+
+<br> 
+<center>
+<img src="https://internest.no/RY6KLHOBCTCAU7CHX7QZXP7IZNHP7SGU.gif" class="my_eyez" ><br>
